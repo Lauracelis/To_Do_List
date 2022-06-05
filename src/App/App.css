@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+.App {
+  text-align: center;
+}
+.create{
+  color: aliceblue;
+  font-weight: 100;
+  font-size: 1.5em;
+  text-align: center;
+  font-family:  'Prata', serif;
+  margin-top: 3em;
+}

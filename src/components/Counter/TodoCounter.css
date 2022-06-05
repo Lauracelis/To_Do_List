@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Nuosu+SIL&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rouge+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+.todoCounter-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  
+}
+.title-TodoCounter{
+  color: rgb(245, 245, 246);
+  margin-top: 0.5em;
+  font-family: 'Prata', serif;
+  font-size: 3em;
+  width: 18em;
+ 
+}
+.subtitle-TodoCounter{
+  padding: 0.5em;
+  color: rgb(246, 247, 247);
+  font-size: 3.3em;
+  font-family: 'Rouge Script', cursive;
+  text-align: center;
+  margin-top: -0.9em;
+  width: 15.4em;
+}
+.TodoCounter {
+  text-align: center;
+  margin-top: -1.5em;
+  padding: 30px;
+  font-family: 'Prata', serif;
+  font-size: 1.8em;
+  color: #1E1E1E;
+  
+}
+.coffee{
+  margin-left:9.5em;
+  margin-top: -1.2em;
+}
+.cafe{
+  width: 1em;
+  height: 1em;
+}

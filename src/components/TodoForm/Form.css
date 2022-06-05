@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+
+form {
+    width: 100%;
+    max-width: 300px;
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    padding: 33px 40px;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    border-radius: 1.3em;
+    color: #e1d5d5;
+    font-family: 'Prata', serif;
+    font-size: 1.5em;
+  }
+  
+  label {
+    text-align: center;
+    margin-bottom: 26px;
+  }
+  
+  textarea {
+    background-color: rgba(253, 253, 253, 0.482);
+    border: 2px, solid #202329;
+    border-radius: 5px;
+    box-shadow: 0px 5px 50px rgba(32, 35, 41, 0.25);
+    color: #ffdddd;
+    text-align: left;
+    padding: 12px;
+    height: 96px;
+    width: calc(100%-25px);
+    font-family: 'Prata', serif;
+  }
+  
+  textarea::placeholder {
+  font-family: 'Prata', serif;
+  color: #6a22a1da;
+  font-size: 1em;
+  }
+  
+  textarea:focus {
+    outline-color: #fffefc7c;
+  }
+  
+  .TodoForm-buttonContainer {
+    margin-top: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .TodoForm-button {
+    margin-top: 1em;
+    cursor: pointer;
+    display: inline-block;
+    font-size: -1em;
+    color: #e1d5d5;
+    font-weight: 400;
+    width: 115px;
+    height: 47px;
+    border-radius: 2px;
+    border: none;
+    font-family: 'Prata', serif;
+  }
+  
+  .TodoForm-button-add {
+    border: 2px solid rgba(255, 192, 203, 0.662);
+    background-color: #ffcbfa31;
+    border-radius: 0.2em;
+  }
+  .TodoForm-button-add:hover{
+    color: rgb(188, 255, 233);
+    background-color: #ffcbfa78;
+    box-shadow: 5px 5px 5px 0px rgba(219, 214, 214, 0.24);
+
+
+  }
+  .TodoForm-button-cancel {
+    border: 2px solid rgba(255, 192, 203, 0.662);
+    background-color: #ffcbfa31;
+  }
+  .TodoForm-button-cancel:hover{
+    color: rgb(251, 88, 88);
+    background-color: #ffcbfa78;
+    box-shadow: 5px 5px 5px 0px rgba(219, 214, 214, 0.24);
+
+  }
